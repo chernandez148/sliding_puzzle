@@ -11,7 +11,7 @@ window.onload = () => {
     for (let c = 0; c < col; c++) {
       // img id
       let tile = document.createElement("img");
-      tile.src = "../img/blank.jpg";
+      tile.src = "./img/blank.jpg";
 
       //Drag Functionallity
       tile.addEventListener("dragstart", dragStart);
