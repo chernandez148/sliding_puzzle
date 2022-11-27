@@ -41,7 +41,7 @@ window.onload = () => {
 
   for (let i = 0; i < pieces.length; i++) {
     let tile = document.createElement("img");
-    tile.src = "https://github.com/chernandez148/sliding_puzzle/blob/main/img/image_part_" + pieces[i] + ".jpg";
+    tile.src = "./img/image_part_" + pieces[i] + ".jpg";
 
     //Drag Functionallity
     tile.addEventListener("dragstart", dragStart);
